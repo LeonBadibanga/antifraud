@@ -1,0 +1,79 @@
+type: edu
+files:
+  - name: src/antifraud/AntiFraudApplication.java
+    visible: true
+    learner_created: false
+  - name: src/resources/application.properties
+    visible: true
+    learner_created: false
+  - name: build.gradle
+    visible: true
+    learner_created: false
+  - name: test/AntiFraudTest.java
+    visible: false
+    learner_created: false
+  - name: src/antifraud/User.java
+    visible: true
+    learner_created: true
+  - name: src/antifraud/TransactionResponse.java
+    visible: true
+    learner_created: true
+  - name: src/antifraud/AntiFraudController.java
+    visible: true
+    learner_created: true
+  - name: src/antifraud/RestAuthenticationEntryPoint.java
+    visible: true
+    learner_created: true
+  - name: src/antifraud/UserController.java
+    visible: true
+    learner_created: true
+  - name: src/antifraud/UserRepository.java
+    visible: true
+    learner_created: true
+  - name: src/antifraud/UserService.java
+    visible: true
+    learner_created: true
+  - name: src/antifraud/SecurityConfig.java
+    visible: true
+    learner_created: true
+  - name: src/antifraud/CustomUserDetailsService.java
+    visible: true
+    learner_created: true
+  - name: src/antifraud/UserDto.java
+    visible: true
+    learner_created: true
+  - name: src/antifraud/TransactionRequest.java
+    visible: true
+    learner_created: true
+  - name: src/antifraud/UserNotFoundException.java
+    visible: true
+    learner_created: true
+  - name: src/antifraud/RoleAlreadyAssignedException.java
+    visible: true
+    learner_created: true
+  - name: src/antifraud/InvalidOperationException.java
+    visible: true
+    learner_created: true
+  - name: src/antifraud/Role.java
+    visible: true
+    learner_created: true
+  - name: src/antifraud/NewUserDTO.java
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/learn/step/18069#comment
+status: Failed
+feedback:
+  message: |-
+    Wrong answer in test #4
+
+    The JSON object at key role should be string, found null
+
+    Full JSON:
+    {
+      &quot;id&quot;: 1,
+      &quot;name&quot;: &quot;administrator&quot;,
+      &quot;username&quot;: &quot;administrator&quot;,
+      &quot;role&quot;: null
+    }
+  time: "Wed, 14 Aug 2024 11:12:11 UTC"
+record: 3

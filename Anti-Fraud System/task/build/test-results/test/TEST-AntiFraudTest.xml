@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AntiFraudTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-08-14T11:11:58" hostname="LAPTOP-LEON-BAD" time="12.772">
+  <properties/>
+  <testcase name="start" classname="AntiFraudTest" time="12.772">
+    <failure message="java.lang.AssertionError: Wrong answer in test #4&#10;&#10;The JSON object at key role should be string, found null&#10;&#10;Full JSON:&#10;{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;administrator&quot;,&#10;  &quot;username&quot;: &quot;administrator&quot;,&#10;  &quot;role&quot;: null&#10;}" type="java.lang.AssertionError">java.lang.AssertionError: Wrong answer in test #4
+
+The JSON object at key role should be string, found null
+
+Full JSON:
+{
+  &quot;id&quot;: 1,
+  &quot;name&quot;: &quot;administrator&quot;,
+  &quot;username&quot;: &quot;administrator&quot;,
+  &quot;role&quot;: null
+}
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.hyperskill.hstest.stage.StageTest.start(StageTest.java:203)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:108)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:57)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:39)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+?[0;34m
+?[0m?[0;34m  .   ____          _            __ _ _
+?[0m?[0;34m /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+?[0m?[0;34m( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+?[0m?[0;34m \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+?[0m?[0;34m  '  |____| .__|_| |_|_| |_\__, | / / / /
+?[0m?[0;34m =========|_|==============|___/=/_/_/_/
+?[0m?[0;34m :: Spring Boot ::                (v3.0.2)
+?[0m?[0;34m
+?[0m?[0;34m2024-08-14T13:11:59.883+02:00  INFO 4324 --- [    Test worker] antifraud.AntiFraudApplication           : Starting AntiFraudApplication using Java 17.0.11 with PID 4324 (started by Gebruiker in C:\Users\Gebruiker\IdeaProjects\Anti-Fraud System\Anti-Fraud System\task)
+?[0m?[0;34m2024-08-14T13:11:59.895+02:00  INFO 4324 --- [    Test worker] antifraud.AntiFraudApplication           : No active profile set, falling back to 1 default profile: "default"
+?[0m?[0;34m2024-08-14T13:12:01.973+02:00  INFO 4324 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+?[0m?[0;34m2024-08-14T13:12:02.089+02:00  INFO 4324 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97 ms. Found 1 JPA repository interfaces.
+?[0m?[0;34m2024-08-14T13:12:03.261+02:00  INFO 4324 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 28852 (http)
+?[0m?[0;34m2024-08-14T13:12:03.287+02:00  INFO 4324 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+?[0m?[0;34m2024-08-14T13:12:03.288+02:00  INFO 4324 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+?[0m?[0;34m2024-08-14T13:12:03.460+02:00  INFO 4324 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+?[0m?[0;34m2024-08-14T13:12:03.464+02:00  INFO 4324 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3463 ms
+?[0m?[0;34m2024-08-14T13:12:03.999+02:00  INFO 4324 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+?[0m?[0;34m2024-08-14T13:12:04.140+02:00  INFO 4324 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+?[0m?[0;34m2024-08-14T13:12:04.598+02:00  WARN 4324 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+?[0m?[0;34m2024-08-14T13:12:04.887+02:00  INFO 4324 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+?[0m?[0;34m2024-08-14T13:12:05.317+02:00  INFO 4324 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:../service_db user=
+?[0m?[0;34m2024-08-14T13:12:05.322+02:00  INFO 4324 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+?[0m?[0;34m2024-08-14T13:12:05.402+02:00  INFO 4324 --- [    Test worker] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+?[0m?[0;34m2024-08-14T13:12:06.923+02:00  INFO 4324 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+?[0m?[0;34m2024-08-14T13:12:06.940+02:00  INFO 4324 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+?[0m?[0;34m2024-08-14T13:12:07.708+02:00  WARN 4324 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+?[0m?[0;34m2024-08-14T13:12:08.535+02:00  INFO 4324 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+?[0m?[0;34m2024-08-14T13:12:08.644+02:00  INFO 4324 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@19412eef, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@542b27af, org.springframework.security.web.context.SecurityContextHolderFilter@3280a79a, org.springframework.security.web.header.HeaderWriterFilter@234dfc8e, org.springframework.security.web.authentication.logout.LogoutFilter@29897daf, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2e5ff1d4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@770be0d0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@54519d74, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e092ca, org.springframework.security.web.session.SessionManagementFilter@318f47f1, org.springframework.security.web.access.ExceptionTranslationFilter@12f32f99, org.springframework.security.web.access.intercept.AuthorizationFilter@50915d5]
+?[0m?[0;34m2024-08-14T13:12:09.178+02:00  INFO 4324 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 28852 (http) with context path ''
+?[0m?[0;34m2024-08-14T13:12:09.201+02:00  INFO 4324 --- [    Test worker] antifraud.AntiFraudApplication           : Started AntiFraudApplication in 10.153 seconds (process running for 11.813)
+?[0m?[0;34mTest case
+?[0m?[0;34mTesting api: '/api/auth/user'
+?[0m?[0;34mrequest: '{
+?[0m?[0;34m   "name": "John Doe 1",
+?[0m?[0;34m   "password": "oa3VvqnLxW"
+?[0m?[0;34m}'
+?[0m?[0;34mExpectations: 'In case of wrong data in request, endpoint must respond with BAD REQUEST  status (400).'
+?[0m?[0;34m-----
+?[0;34m2024-08-14T13:12:09.851+02:00  INFO 4324 --- [io-28852-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+?[0m?[0;34m2024-08-14T13:12:09.851+02:00  INFO 4324 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+?[0m?[0;34m2024-08-14T13:12:09.865+02:00  INFO 4324 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+?[0m?[1;31m
+Start test 2?[0m
+?[0;34mTest case
+?[0m?[0;34mTesting api: '/api/auth/user'
+?[0m?[0;34mrequest: '{
+?[0m?[0;34m   "name": "John Doe 2",
+?[0m?[0;34m   "username": "johndoe1"
+?[0m?[0;34m}'
+?[0m?[0;34mExpectations: 'In case of wrong data in request, endpoint must respond with BAD REQUEST  status (400).'
+?[0m?[0;34m-----
+?[0m?[1;31m
+Start test 3?[0m
+?[0;34mTest case
+?[0m?[0;34mTesting api: '/api/auth/user'
+?[0m?[0;34mrequest: '{
+?[0m?[0;34m   "name": "John Doe 1",
+?[0m?[0;34m   "username": "johndoe1",
+?[0m?[0;34m   "password": "oMoa3VvqnLxW"
+?[0m?[0;34m}'
+?[0m?[0;34mExpectations: 'If user successfully added, endpoint must respond with HTTP CREATED status (201) '
+?[0m?[0;34m-----
+?[0m?[1;31m
+Start test 4?[0m
+?[0;34mTest case
+?[0m?[0;34mTesting api: '/api/auth/list'
+?[0m?[0;34mExpectations: 'Endpoint must respond with HTTP OK status (200) and body with array of objects representing the users sorted by ID in ascending order.'
+?[0m?[0;34m-----
+?[0m]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
